@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="footer.css" rel="stylesheet">
+    <link href="owner.css" rel="stylesheet">
+    <link href="achivements.css" rel="stylesheet">
+    <link href="art-gall.css" rel="stylesheet">
+    <link href="service.css" rel="stylesheet">
+    <link href="feedback.html" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        #dealin {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            font-size: 47px;
+            width: 100%;
+            /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+        }
+        
+        #deal-name {
+            text-align: center;
+            font-size: 47px;
+            font-weight: bold;
+        }
+        
+        .logo-img {
+            height: 150px;
+            width: 150px;
+            justify-content: center;
+        }
+    </style>
+
+
+</head>
+<script>
+    function mouseover() {
+
+        document.getElementById("emailid").style.color = "white";
+    }
+</script>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" id="top-nav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="crousel/logo.jpg" id="nav-logo">Mobile Mart</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#top-nav">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="phone.html">Phones</a></li>
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#owner-name">Owner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mm-loc">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- crousel first page -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="crousel/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="crousel/Mobile Mart-dealin3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="crousel/mm-3(2).png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- services -->
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 id="service">
+                Products
+            </h4>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <div class="card mb-3" style="max-width: 1400px;">
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <img src="pics/ph1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-4" id="card-left">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="phone.html" target="blank" style="text-decoration: none; color: black;">Phones</a></h5>
+                        <p class="card-text">We have every type of phone is available like iphone, Samsung, Oppo, Vivo, Xiomi, Realme, Nokia etc. Also we are deal in new & old phnes. </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <img src="pics/a2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-4" id="card-right">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="phone.html" target="blank" style="text-decoration: none; color: black;">Accessories</a></h5>
+                        <p class="card-text">We have every type of accessories is available like Power Bank,every phone Guards, Smart Watchs, Earphone including wireless Neckband, Airpods, Headphones,etc. Also we are deal in new & old phnes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Achievement -->
+
+    <div class="row" id="achieve">
+        <div class="col-12">
+            <h4 id="achivement-h">
+                Achievement
+            </h4>
+        </div>
+        <div class="col-md-12">
+            <h3 class="achieve-top">
+                Mobile Mart - The Mobile Super Market
+            </h3>
+            <p class="achieve-top2">
+                We are the suppliers of mobile phones, mobile spare parts and mobile accessories.
+            </p>
+        </div>
+
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/users.png" class="achieve-imgs"></center>
+            </div>
+            <div class="achieve-count">
+                10000+
+            </div>
+            <div class="achieve-name">
+                Satisfied Customers<br> (last 6 months)
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/brands.jpg" class="achieve-imgs" style="border-radius: 50%;"></center>
+            </div>
+            <div class="achieve-count">
+                1000+
+            </div>
+            <div class="achieve-name">
+                Brands
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/accorries.jpg" class="achieve-imgs" style="border-radius: 50%;"></center>
+            </div>
+            <div class="achieve-count">
+                100+
+            </div>
+            <div class="achieve-name">
+                Products & Accessories
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/city.png" class="achieve-imgs"></center>
+            </div>
+            <div class="achieve-count">
+                50+
+            </div>
+            <div class="achieve-name">
+                Urban & Rural Areas
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Owner name -->
+
+    <br>
+    <div class="row">
+        <div class="col-md-12" id="owner">
+            <h4 id="owner-h">Owner</h4>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="Owner/Lovely.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; text-decoration: none;">Lovely Phutela</h5>
+                        <p class="card-text">
+                            <center> <i class="fa fa-phone" aria-hidden="true" style="color: black;"></i>
+                                <a href="tel:6031112298" style="color: black;font-weight: bold; text-decoration: none;"> 7009539026</a></center>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Owner/deepak2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; text-decoration: none;">Deepak Phutela</h5>
+                        <p class="card-text">
+                            <center> <i class="fa fa-whatsapp" aria-hidden="true" style="color: black;"></i>
+                                <a href="https://wa.me/6239648996" style="color: black;font-weight: bold; text-decoration: none;"> 6239648996</a></center>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+    <!-- Art Gallery -->
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: black;">
+        <div class="row">
+            <div class="col-12">
+                <h4 id="art-gallery">
+                    Art Gallery
+                </h4>
+            </div>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <center><img src="Art Gallery/Screenshot (4).png" class="d-block w-50" alt="..."></center>
+            </div>
+            <div class="carousel-item">
+                <center> <img src="Art Gallery/Screenshot (4).png" class="d-block w-50" alt="..."></center>
+            </div>
+            <div class="carousel-item">
+                <center> <img src="Art Gallery/Screenshot (4).png" class="d-block w-50" alt="..."></center>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        <br>
+    </div>
+
+
+    <!-- Which Brands Mainly Deal in -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="dealin">
+                <h4 id="deal-name">Deal-In</h4>
+            </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="logo/Screenshot (6).png" class="d-block w-100" alt="..." style="margin-top: 50px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="logo/Screenshot (8).png" class="d-block w-100" alt="..." style="margin-top: 50px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="logo/Screenshot (10).png" class="d-block w-100" alt="..." style="margin-top: 50px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <div class="row" id="footer">
+        <div class="col-md-3" id="firstcol">
+            <ul>
+                <li id="jp-image"><br><br><img src="logo/logo.jpg" height="160" width="180"></li>
+                <li id="jpname" style="text-align: center;"><b>Mobile Mart</b></li>
+                <li class="jpline">
+
+                    <center>__________________</center>
+                </li>
+                <li id="jp-pin" style="text-align: center;"> Malout,Punjab-152107</li>
+                <li id="social">
+                    <a href="https://www.instagram.com/mobile_mart_malout/?utm_medium=copy_link" target="blank">
+                        <center><i class="fa fa-instagram fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;"></i></a>
+                    <a href="mailto:mobilemart@gmail.com" target="blank" id="emailid"><i class="fa fa-envelope-o fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;" ></i></a>
+                    <a href="https://wa.me/6239648996" target="_blank"> <i class="fa fa-whatsapp fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;" onMouseOver="this.style.color='white'"></i></a>
+                    </center>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2 " id="secondcol ">
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">Quick Links</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li>
+                    <a href="# ">
+                        <center class="quick"> HOME</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="#service">
+                        <center class="quick"> PRODUCTS</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <center class="quick"> SERVICES</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html">
+                        <center class="quick"> FEEDBACK</center>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class=col-md-4>
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">About Us</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-map-marker" aria-hidden="true" style="color: white;"></i> <span class="foot-about"> Teshil Road,Malout(Punjab)</span>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-mobile " aria-hidden="true" style="color: white;"></i> <span class="foot-about"> 623968996,7009539026</span>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-envelope-o" aria-hidden="true" style="color: white;"></i> <span class="foot-about"> mobilemart@gmail.com</span>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-clock-o" aria-hidden="true" style="color: white;"></i> <span class="foot-about"> 9am-10pm</span>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-2 ">
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">Location</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li>
+                    <center><iframe id="mm-loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30710983.209769644!2d64.45235976587381!3d20.01273993518969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391717a8a4708457%3A0x6158e6f53b1c7537!2sMobile%20Mart!5e0!3m2!1sen!2sin!4v1653585738350!5m2!1sen!2sin"
+                            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                </center>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
